@@ -1,0 +1,107 @@
+*
+{
+  background-color: black;
+  
+}
+.container
+{
+  
+  width: 100%;
+  
+  
+  position: absolute;
+  
+  top:20px;
+  left: 50%;
+  transform: translate(-50%);
+  border-radius: 30px;
+  
+  
+}
+
+.card-body
+{
+  width:50%;
+  margin: auto;
+  background-color: red;
+  height: 20vh;
+  
+  
+
+}
+.card-title
+{
+  font-size: 2rem;
+  white-space:nowrap;
+  padding: 20px;
+  background-color: red;
+}
+.form
+{
+  width: 100%;
+  display: flex;
+  justify-content:space-around;
+  background-color: red;
+}
+.form .text
+{
+    width:50%;
+}
+.form input
+{
+  
+  height: 2.5rem;
+  text-align: center;
+  border: 2px solid white;
+  border-radius: 10px;
+  margin-bottom: 30px;
+   background-color:cornsilk;
+
+  
+}
+.item
+{
+  background: linear-gradient(110deg, #fdcd3b 60%, #ffed4b 60%);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+  margin-top: 20px;
+  border-radius: 20px;
+  
+}
+.item  h5{
+  background: #fdcd3b;
+}
+button
+{
+  padding: 5px;
+  font-size: 1rem;
+  border-radius: 50%;
+  background-color: antiquewhite;
+
+}
+@media screen and (max-width:1024px){
+  .container
+  {
+    width: 90%;
+  }
+  .card-body
+  {
+    width: 80%;
+    height: 10vh;
+    
+  }
+  .card-title
+{
+  font-size: 1rem;
+ 
+  padding: 5px;
+}
+.item
+{
+  margin-top: 20px;
+}
+  
+
+  
+}
